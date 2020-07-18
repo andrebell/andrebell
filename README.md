@@ -4,9 +4,9 @@
 <circle cx="50" cy="50" r="20" stroke="black" fill="red" />
 </svg>
 
+![SVG](./simple.svg)
+<img src="./simple.svg" />
 <!--
-![SVG](/andrebell/andrebell/raw/master/simple.svg)
-
 **andrebell/andrebell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
