@@ -1,7 +1,12 @@
 ### Hi there 👋
 
-![SVG](/andrebell/andrebell/raw/master/simple.svg)
+<svg viewBox="0 0 100 100" width="100px">
+<circle cx="50" cy="50" r="20" stroke="black" fill="red" />
+</svg>
+
 <!--
+![SVG](/andrebell/andrebell/raw/master/simple.svg)
+
 **andrebell/andrebell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
