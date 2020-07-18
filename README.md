@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![SVG](./simple.svg)
+![SVG](/andrebell/andrebell/raw/master/simple.svg)
 <!--
 **andrebell/andrebell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
