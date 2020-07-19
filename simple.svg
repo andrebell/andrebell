@@ -9,6 +9,5 @@
     </path>
   <text x="20" y="20">
     👋 Hi there!
-    <animate attributeName="x" from="20" to="450" begin="0.1s" dur="1s" fill="freeze"/>
   </text>
 </svg>
