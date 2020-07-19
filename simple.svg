@@ -2,6 +2,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
-<svg viewBox="0 0 100 100" width="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="50" cy="50" r="20" stroke-width="1" stroke="black" fill="red" />
+<svg viewBox="0 0 1000 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+  </defs>
+  <path d="M0 0L1000 0L1000 30L0 30Z" stroke="black" stroke-width="1" fill="#6666aa" >
+    </path>
+  <text x="20" y="20">
+    👋 Hi there!
+    <animate attributeName="x" from="20" to="450" begin="0.1s" dur="1s" fill="freeze"/>
+  </text>
 </svg>
