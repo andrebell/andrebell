@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
-<svg viewBox="0 0 1000 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M0 0L1000 0L1000 30L0 30Z" stroke="black" stroke-width="1" fill="#6666aa" />
-  <text x="50%" y="20" text-anchor="middle">Hi there 👋<animate attributeName="x" from="-50%" to="50%" begin="0s" dur="3s"/></text>
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%" > 
+      <stop offset="0%" stop-color="#7A5FFF">
+        <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+      <stop offset="100%" stop-color="#01FF89">
+        <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="10s" repeatCount="indefinite"></animate>
+      </stop>
+    </linearGradient> 
+  </defs>
+  <path id="p1"
+    d="M 0 0 l 1000 0 l 0 150 c -400 100 -600 -100 -1000 0 z"
+    stroke="none" fill="lightblue"
+    stroke-width="0" />
+  <animate xlink:href="#p1"
+    attributeName="d"
+    attributeType="XML"
+    values="M 0 0 l 1000 0 l 0 150 c -400 100 -600 -100 -1000 0 z;
+            M 0 0 l 1000 0 l 0 150 c -400 -100 -600 100 -1000 0 z;
+            M 0 0 l 1000 0 l 0 150 c -400 100 -600 -100 -1000 0 z"
+    dur="25s"
+    repeatCount="indefinite" />
+  <text x="1em" y="2em" font-size="2em" fill="black">Hi there 👋</text>
+  <path id="p2"
+    d="M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z"
+    stroke="none" fill="url(#grad1)"
+    stroke-width="0" opacity="0.5"/>
+  <animate xlink:href="#p2"
+    attributeName="d"
+    attributeType="XML"
+    value="M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z;
+           M 0 450 c 400 -100 600 100 1000 0 l 0 150 l -1000 0 z;
+           M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z"    
+    dur="30s"
+    repeatCount="indefinite" />
+
 </svg>
