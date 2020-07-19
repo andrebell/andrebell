@@ -28,14 +28,13 @@
   <path id="p2"
     d="M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z"
     stroke="none" fill="url(#grad1)"
-    stroke-width="0"/>
+    stroke-width="0" />
   <animate xlink:href="#p2"
     attributeName="d"
     attributeType="XML"
     values="M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z;
-           M 0 450 c 400 -100 600 100 1000 0 l 0 150 l -1000 0 z;
-           M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z"    
+            M 0 450 c 400 -100 600 100 1000 0 l 0 150 l -1000 0 z;
+            M 0 450 c 400 100 600 -100 1000 0 l 0 150 l -1000 0 z"    
     dur="30s"
     repeatCount="indefinite" />
-
 </svg>
