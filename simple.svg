@@ -3,5 +3,5 @@
 
 <svg viewBox="0 0 1000 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M0 0L1000 0L1000 30L0 30Z" stroke="black" stroke-width="1" fill="#6666aa" />
-  <text x="20" y="20">Hi there 👋</text>
+  <text x="50%" y="20" style="text-align: center">Hi there 👋<animate attributeName="x" from="-50%" to="50%" begin="0s" dur="3s"/></text>
 </svg>
