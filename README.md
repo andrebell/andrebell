@@ -1,6 +1,6 @@
 # Hi there
 
-I'm Andre Bell, coding, learning, teaching...
+I'm Andre Bell, coding :man_technologist:, learning :man_student:, teaching :man_teacher:...
 
 <!--
 <svg viewBox="0 0 100 100" width="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
